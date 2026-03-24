@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+
+:root {
+  --text-light: #F9FAF8;
+  --text-light-sec: #efe7eb;
+  --text-dark: #1f2937;
+  --bgc-dark: #1F2937;
+  --blue: #3882f6
+}
+
+header, .hero {
+  background-color: var(--bgc-dark);
+  color: var(--text-light);
+  padding: 24px 200px;
+}
+
+header, header nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 24px;
+}
+
+header nav a, 
+.hero .left p {
+  text-decoration: none;
+  color: var(--text-light-sec);
+  font-size: 18px;
+}
+
+header nav a:hover {
+  color: var(--text-light)
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero .left,
+.hero .right {
+  flex: 1;
+}
+
+
+.hero .left h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero .right {
+  display: flex;
+  justify-content: center;
+}
+
+.hero .right img {
+  width: 80%;
+  height: auto;
+  background-color: teal;
+}
+
+button {
+  padding: 7px 30px;
+  font-size: 18px;
+  background-color: var(--blue);
+  color: var(--text-light);
+  border-radius: 8px;
+  border: none;
+}
+
+.hero-btn {
+  margin-top: 12px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h2 {
+  font-size: 36px;
+  color: var(--text-dark);
+  font-weight: 900;
+  margin-top: 50px
+}
+
+.content .img-bar {
+  display: flex;
+  padding: 15px 100px;
+  gap: 20px;
+}
+
+.img-bar .item {
+  width: 175px;
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.img-bar .item p {
+  color: var(--text-dark);
+}
+
+.img-bar .item img {
+  width: 150px;
+  height: 150px;
+  border: solid 3px var(--blue);
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.quote {
+  padding: 100px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-text, .cite {
+  font-size: 36px;
+  font-weight: 300;
+  width: 75%;
+}
+
+.cite {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 800;
+}
+
+
+.cta {
+  margin: 50px;
+  padding: 45px 125px;
+  background-color: var(--blue);
+  border-radius: 8px;
+  width: 75%;
+  display: flex;
+  color: var(--text-light)
+}
+
+.cta .content {
+  flex: 3;
+  display: flex;
+  align-items: flex-start;
+}
+
+.cta .cta-btn {
+  flex: 1;
+  border: solid 2px var(--text-light)
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bgc-dark);
+  color: var(--text-light);
+  padding: 30px;
+}
+
