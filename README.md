@@ -1,4 +1,4 @@
-# Project Title
+# Landing Page
 
 > Small landing page to practice html and css layouts and design. Strong focus on using flex boxes.
 
