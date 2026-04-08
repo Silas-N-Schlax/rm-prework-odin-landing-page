@@ -25,8 +25,6 @@ The Odin Project provides a comprehensive open-source curriculum focused on lear
 
 # Project Overview
 
-A small landing page to practice basic HTML sturcture, and CSS styling focusing on flex boxes.
-
 * Structuring HTML pages
 * Practicing CSS styling
 * Practicing CSS Flexbox styling
