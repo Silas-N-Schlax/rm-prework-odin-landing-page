@@ -44,9 +44,7 @@ A small landing page to practice basic HTML sturcture, and CSS styling focusing 
 
 ---
 
-# Live Preview (Optional)
-
-If deployed, include a link here.
+# Live Preview
 
 Example: [https://silas-n-schlax.github.io/rm-prework-odin-landing-page/](https://silas-n-schlax.github.io/rm-prework-odin-landing-page/)
 
